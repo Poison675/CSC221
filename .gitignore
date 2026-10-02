@@ -1,0 +1,42 @@
+# C++ build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.ilk
+*.pch
+*.gch
+core
+core.*
+
+# Generated assignment archives (keep provided/reference ZIP files)
+/project1/*.zip
+/project2/*.zip
+/project3/*.zip
+/project4/*.zip
+
+# Build and test output
+/build/
+/cmake-build-*/
+*.gcda
+*.gcno
+*.gcov
+
+# IDE and editor state
+.idea/
+.vs/
+*.suo
+*.user
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
